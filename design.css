@@ -1,0 +1,54 @@
+/* Add a black background color to the top navigation */
+
+body{
+    background-image: url("background.jpg");
+      background-size: cover;
+        background-repeat: no-repeat;
+
+
+}
+
+.content
+{
+	color:black;font-family: Comic Sans MS; font-size: 25px; text-align:center;text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+.text{
+		color:black;font-family: Comic Sans MS; font-size: 25px;text-shadow: 1px 1px 1px #FFFFFF;
+
+}
+
+.mySlides {display:none;}
+
+.w3-content{max-width:980px;margin:auto;}
+.topnav {
+    background-color: #333;
+
+    overflow: hidden;
+}
+
+.w3-section{margin-top:16px!important;margin-bottom:16px!important }
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.w3-center{text-align:center!important}
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}

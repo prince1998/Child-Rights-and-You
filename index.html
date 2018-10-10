@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<link rel = "stylesheet" type = "text/css" href = "design.css">
+<title>
+
+CRY - Child Rights and You
+</title>
+<script src="script.js"></script>
+
+</head>
+
+<body>
+
+<img src = "cry-logo.png" style = " border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;">
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="about.html">About</a>
+  <a href="problem.html">The Problem</a>
+  <a href="approach.html">Our Approach</a>
+  <a href="impact.html">Impact</a>
+  <a href="contact.html">Contact Us</a>
+ 
+
+</div>
+	<center>
+			<h1 style="color:white; font-family: Comic Sans MS;font-size: 80px;text-shadow: 3px 3px 3px #FF0000;">Child Rights and You </h1>
+		</center>
+<center>
+<div class="w3-content w3-section" style="max-width:75%">
+		<img src = "image1.jpg" class = "mySlides" style="width:100%">
+		<img src = "image2.jpg" class="mySlides" style="width:100%">
+		<img src = "image3.jpg" class="mySlides" style="width:100%">
+		<img src = "image4.jpg" class="mySlides" style="width:100%">
+
+
+</div>
+</center>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<p class ="content">
+<br><b><u>Vision</b></u>
+<br>
+<ul style="color:black;font-family: Comic Sans MS; font-size: 25px; text-shadow: 1px 1px 1px #FFFFFF;">
+<li>
+A happy, healthy and creative child whose rights are protected and honoured in a society that is built on respect for dignity, justice and equity for all.</li>
+<br>
+<center>
+<b><u>Mission</b></u>
+</center>
+<br>
+
+<li>
+
+To enable people to take responsibility for the situation of the deprived Indian child and so motivate them to seek resolution through individual and collective action thereby enabling children to realise their full potential
+</li>
+<br>
+<li>
+
+To make people discover their potential for action and change
+</li>
+
+<br>
+<li>
+
+To enable peoples’ collectives and movements encompassing diverse segments, to pledge their particular strengths, working in partnership to secure, protect and honour the rights of India’s children.
+</li>
+
+<br>
+</ul>
+</p>
+</body>
+</html>
